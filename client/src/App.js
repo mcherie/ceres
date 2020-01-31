@@ -4,6 +4,9 @@ import './App.css';
 
 import { Home } from "./components/home"
 import {AboutMe} from './components/about-me';
+import { Portfolio } from "./components/portfolio"
+import { Navbar } from "./components/navbar"
+import {ContactMe} from './components/contact-me';
 
 function App() {
   return (
@@ -21,8 +24,11 @@ function App() {
         >
           Learn React
         </a> */}
+        <Navbar />
         <Home />
         <AboutMe />
+        <Portfolio />
+        <ContactMe />
       </header>
     </div>
   );
