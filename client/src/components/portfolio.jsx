@@ -1,9 +1,35 @@
 import React from "react";
+import {Project} from "./project"
+import {styles} from "../styles"
+import BridgeBot from "../images/bridgebot.png"
+import NorthOne from "../images/northone.png"
+import Wingit from "../images/wingit.png"
 
 export const Portfolio = () => {
   return (
-    <div>
-      Hello Projects!
+    <div style={styles.PortfolioDiv}>
+      <p style={{
+        textAlign: "left",
+        marginLeft: "5rem",
+        fontFamily: "Merienda", 
+        fontSize: "2rem"
+      }}>previous projects</p>
+      <Project
+        title="BridgeBot"
+        img={BridgeBot}
+        desc="A web application that takes poll information and presents charts visualization results, and backend that interacts with Slack API and Firebase" />
+      <Project
+        title="NorthOne web and mobile banking"
+        img={NorthOne}
+        desc="A banking app catered to make small business, free-lancers, or sole propietors bank easier" />
+      <Project 
+        title="Gamebox"
+        img={Wingit}
+        desc="A platform that hosts social party games to play with friends" />
+      <Project title="Chatty App" />
+      <Project title="Tweeter" />
+      <Project title="TinyURL" />
+      <Project title="Clippit" />
     </div>
   )
 }

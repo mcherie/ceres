@@ -1,13 +1,11 @@
 import React from "react"
-import underConstruction from "../images/under-construction.jpg"
-// import underConstruction from "../images/under_construction.png"
-import { styles } from "../styles"
 import Particles from "react-particles-js"
+import {styles} from "../styles"
 
 
 export const Home = () => {
   return (
-    <div>
+    <div style={styles.HomeDiv}>
       <Particles 
         params={{
           "particles": {
@@ -15,7 +13,7 @@ export const Home = () => {
                   "value": 30,
                   "density": {
                     "enable": true,
-                    "value_area": 110
+                    "value_area": 120
                   }
               },
               "size": {

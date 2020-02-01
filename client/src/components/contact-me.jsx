@@ -3,10 +3,10 @@ import { styles } from "../styles"
 
 export const ContactMe = () => {
   return (
-    <div>
+    <div style={styles.ContactDiv}>
       Contact me through:
       Email
-      
+
     </div>
   )
 }
