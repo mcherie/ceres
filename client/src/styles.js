@@ -1,14 +1,9 @@
-const UnderConstLogo = {
-  width: "40rem",
-  transform: "rotate(10deg)",
-  opacity: 0.8,
-  paddingTop: "10rem"
-}
 
 const HomeDiv = {
   // position: "fixed",
-  // top: "10rem"
-  paddingTop: "5rem"
+  paddingTop: "5rem",
+  width: "100%",
+  // backgroundColor: "black",
 }
 
 const AboutMeTitle = {
@@ -55,7 +50,10 @@ const NavbarName = {
 }
 
 const ContactDiv = {
-  paddingBottom: "3rem"
+  paddingBottom: "3rem",
+  justifyContent: "flex-start",
+  width: "100%",
+  alignContent: "center",
 }
 
 const PortfolioDiv = {
@@ -68,22 +66,26 @@ const PortfolioDiv = {
 
 const ProjectDiv = {
   width: "17rem",
-  height: "25rem",
-  border: "1px solid black",
+  height: "23rem",
+  // border: "1px solid black",
   display: "inline-block",
-  margin: "1rem",
-  // background: "lightcoral"
-    // background: "#D58E84"
-  // background: "#95c0b3"
+  margin: "0.8rem",
+  // background: "lightcoral",
+  // background: "#D58E84",
+  // background: "#95c0b3",
+  // background: "#93bebd",
+  // background: "#b7d4d3",
+  background: "#6ea9a8",
   // background: "#C0C0C0",
-  background: "white",
+  // background: "white",
+  // background: "#6c6c6c",
   borderRadius: "5px",
-  color: "black",
-  paddingBottom: "1rem",
+  // color: "black",
+  color: "white",
+  // paddingBottom: "1rem",
 }
 
 export const styles = {
-  UnderConstLogo: UnderConstLogo,
   AboutMeTitle: AboutMeTitle,
   AboutMeDesc,
   Navbar,

@@ -13,7 +13,9 @@ export const Portfolio = () => {
     <div style={styles.PortfolioDiv}>
       <p style={{
         textAlign: "left",
-        marginLeft: "5rem",
+        marginLeft: "5.3rem",
+        marginTop: "5rem",
+        marginBottom: "5rem",
         fontFamily: "Merienda", 
         fontSize: "2rem"
       }}>previous projects</p>
@@ -41,7 +43,9 @@ export const Portfolio = () => {
         title="TinyURL"
         img={TinyURL}
         desc="An app that shortens long URLs a la bit.ly" />
-      <Project title="Clippit" />
+      <Project 
+      title="Clippit"
+      desc="A resource wall where users can share, like, and rate resources." />
     </div>
   )
 }

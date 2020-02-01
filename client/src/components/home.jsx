@@ -10,11 +10,15 @@ export const Home = () => {
         params={{
           "particles": {
               "number": {
-                  "value": 30,
+                  "value": 50,
                   "density": {
                     "enable": true,
                     "value_area": 120
                   }
+              },
+              "color": {
+                // "value": "#ffffff"
+                "value": "#95c0b3"
               },
               "size": {
                   "value": 1
