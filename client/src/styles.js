@@ -67,8 +67,8 @@ const PortfolioDiv = {
 }
 
 const ProjectDiv = {
-  width: "20rem",
-  height: "30rem",
+  width: "17rem",
+  height: "25rem",
   border: "1px solid black",
   display: "inline-block",
   margin: "1rem",
@@ -77,8 +77,9 @@ const ProjectDiv = {
   // background: "#95c0b3"
   // background: "#C0C0C0",
   background: "white",
-  borderRadius: "7px",
-  color: "black"
+  borderRadius: "5px",
+  color: "black",
+  paddingBottom: "1rem",
 }
 
 export const styles = {
