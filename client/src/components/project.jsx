@@ -8,8 +8,8 @@ export const Project = (props) => {
       <p 
         style={{
           fontFamily: "Raleway", 
-          paddingLeft: "1rem", 
-          paddingRight: "1rem"}}
+          paddingLeft: "0.2rem", 
+          paddingRight: "0.2rem"}}
           >{props.title ? props.title : "Hello"}</p>
       <div
         style={{
@@ -31,7 +31,7 @@ export const Project = (props) => {
           src={props.img ? props.img : null} ></img>
       </div>
       <p style={{
-        fontSize: "1rem", 
+        fontSize: "0.9rem", 
         paddingHorizontal: "1rem", 
         color: "#676767",
         width: "95%", 

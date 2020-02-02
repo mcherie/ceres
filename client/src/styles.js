@@ -34,7 +34,7 @@ const Navbar = {
   top: 0,
   zIndex: 100,
   overflow: "hidden",
-  opacity: 0.95
+  opacity: 0.98
 }
 
 const NavbarName = {
@@ -51,9 +51,9 @@ const NavbarName = {
 
 const ContactDiv = {
   paddingBottom: "3rem",
-  justifyContent: "flex-start",
+  // justifyContent: "flex-start",
   width: "100%",
-  alignContent: "center",
+  // alignContent: "center",
 }
 
 const PortfolioDiv = {
@@ -69,16 +69,16 @@ const ProjectDiv = {
   height: "23rem",
   // border: "1px solid black",
   display: "inline-block",
-  margin: "0.8rem",
+  margin: "0.6rem",
   // background: "lightcoral",
-  // background: "#D58E84",
-  // background: "#95c0b3",
-  // background: "#93bebd",
-  // background: "#b7d4d3",
-  background: "#6ea9a8",
+  // background: "#D58E84", // lighter touch of orange coral
+  // background: "#95c0b3", // medium brightish green
+  // background: "#93bebd", // medium bright green teal
+  // background: "#b7d4d3", // light brightish green
+  // background: "#6ea9a8", // medium brightish teal
   // background: "#C0C0C0",
   // background: "white",
-  // background: "#6c6c6c",
+  background: "#6c6c6c", // medium grey
   borderRadius: "5px",
   // color: "black",
   color: "white",

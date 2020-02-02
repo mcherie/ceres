@@ -22,11 +22,11 @@ export const Portfolio = () => {
       <Project
         title="BridgeBot"
         img={BridgeBot}
-        desc="A web application that takes poll information and presents charts visualization results, and backend that interacts with Slack API and Firebase" />
+        desc="A web charts visualization app, and interacts with Slack API and Firebase" />
       <Project
-        title="NorthOne web and mobile banking"
+        title="Web & mobile banking"
         img={NorthOne}
-        desc="A banking app catered to make small business, free-lancers, or sole propietors bank easier" />
+        desc="NorthOne banking app for small business, free-lancers, or sole propietors" />
       <Project 
         title="Gamebox"
         img={Wingit}
@@ -43,9 +43,9 @@ export const Portfolio = () => {
         title="TinyURL"
         img={TinyURL}
         desc="An app that shortens long URLs a la bit.ly" />
-      <Project 
+      {/* <Project 
       title="Clippit"
-      desc="A resource wall where users can share, like, and rate resources." />
+      desc="A resource wall where users can share, like, and rate resources." /> */}
     </div>
   )
 }

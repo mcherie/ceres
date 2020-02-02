@@ -21,7 +21,7 @@ export const Home = () => {
                 "value": "#95c0b3"
               },
               "size": {
-                  "value": 1
+                  "value": 1.2
               },
               "shape": {
                 "type": "polygon",
