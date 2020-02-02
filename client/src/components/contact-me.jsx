@@ -10,18 +10,19 @@ export const ContactMe = () => {
         marginTop: "5rem",
         marginBottom: "3rem",
         fontFamily: "Merienda",
-        fontSize: "2rem"
+        fontSize: "2rem",
+        paddingLeft: "5rem",
       }}>contact me</p>
 
       <div 
         style={{
           // width: "50rem", 
-          paddingLeft: "0.5rem", 
+          paddingLeft: "5rem", 
           // marginLeft: "5rem", 
         }}>
         <form style={{
           textAlign: "left",
-          width: "35rem",
+          // width: "35rem",
         }}>
 
           <p style={{
@@ -66,7 +67,7 @@ export const ContactMe = () => {
             marginBottom: 0,
             fontFamily: "Gudea",
           }}>Message</p>
-          <div style={{width: "100%", }}>
+          <div >
             <textarea
               title="Message"
               placeholder="Type your message..."
@@ -86,11 +87,12 @@ export const ContactMe = () => {
               style={{
                 padding: "0.4rem",
                 borderRadius: "5px",
-                backgroundColor: "#6c6c6c",
+                backgroundColor: "#545454",
                 fontSize: "1.1rem",
                 display: "inline-block",
                 color: "white",
                 fontFamily: "Gudea",
+                marginTop: "1rem"
               }}>Send message
           </button>
           </div>
@@ -100,24 +102,26 @@ export const ContactMe = () => {
 
       <div 
         style={{
-          width: "80%",
+          // width: "80%",
           textAlign: "right", 
           paddingTop: "3rem", 
-          fontFamily: "Gudea", }}>
+          fontFamily: "Gudea", 
+          paddingRight: "5rem", 
+          }}>
         <p
           style={{
             fontSize: "1rem",
             display: "inline-block"
           }}>Github
         </p>
-        &emsp; &emsp; &emsp;
+        &emsp; &emsp; 
         <p
           style={{
             fontSize: "1rem",
             display: "inline-block"
           }}>LinkedIn
         </p>
-        &emsp; &emsp; &emsp;
+        &emsp; &emsp; 
         <p
           style={{
             fontSize: "1rem",

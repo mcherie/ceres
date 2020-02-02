@@ -34,13 +34,14 @@ const Navbar = {
   // borderBottom: "1px solid black",
   height: "5rem",
   left: 0,
-  padding: "0 10px",
+  // padding: "0 10px",
   position: "fixed",
   right: 0,
   top: 0,
   zIndex: 100,
   overflow: "hidden",
-  opacity: 0.98
+  opacity: 0.98,
+  width: "100%",
 }
 
 const NavbarName = {
@@ -50,18 +51,18 @@ const NavbarName = {
   // fontFamily: "Great Vibes",
   fontFamily: "Merienda One",
   fontSize: "2.5rem",
-  position: "absolute",
+  // position: "absolute",
   top: "1rem",
   left: "5rem",
 }
 
 const ContactDiv = {
   paddingBottom: "1rem",
-  // justifyContent: "flex-start",
+  justifyContent: "flex-start",
   width: "100%",
   // marginRight: "5rem",
   // alignContent: "center",
-  paddingLeft: "20rem",
+  // paddingLeft: "20rem",
   // paddingRight: "5rem",
   // position: "relative",
 }
