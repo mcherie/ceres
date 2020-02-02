@@ -6,47 +6,80 @@ export const ContactMe = () => {
     <div style={styles.ContactDiv}>
       <p style={{
         textAlign: "left",
-        marginLeft: "5.3rem",
+        // marginLeft: "5rem",
         marginTop: "5rem",
-        marginBottom: "2rem",
+        marginBottom: "3rem",
         fontFamily: "Merienda",
         fontSize: "2rem"
-      }}>Contact me</p>
-      <div style={{width: "50rem", paddingLeft: "1rem"}}>
+      }}>contact me</p>
+
+      <div 
+        style={{
+          // width: "50rem", 
+          paddingLeft: "0.5rem", 
+          // marginLeft: "5rem", 
+        }}>
         <form style={{
           textAlign: "left",
-          marginLeft: "5.3rem",
+          width: "35rem",
         }}>
 
           <p style={{
-            textAlign: "left", fontSize: "1.1rem"
+            textAlign: "left", 
+            fontSize: "1.1rem", 
+            marginBottom: 0, 
+            fontFamily: "Gudea",
           }}>Name</p>
-          <input title="Name" placeholder="Name" style={{width: "10rem", padding: "0.3rem", borderRadius: "3px"}}>
+          <input 
+            title="Name" 
+            placeholder="Name" 
+            style={{
+              width: "20rem", 
+              padding: "0.5rem", 
+              borderRadius: "3px", 
+              fontSize: "1rem",
+            }}>
           </input>
 
           <br />
           <p style={{
-            textAlign: "left", fontSize: "1.1rem", bottom: 0
+            textAlign: "left", 
+            fontSize: "1.1rem", 
+            marginBottom: 0, 
+            fontFamily: "Gudea",
           }}>Email</p>
-          <input title="Email" placeholder="Email" style={{width: "10rem", padding: "0.3rem", borderRadius: "3px"}}>
+          <input 
+            title="Email" 
+            placeholder="Email" 
+            style={{
+              width: "20rem", 
+              padding: "0.5rem", 
+              borderRadius: "3px",
+              fontSize: "1rem",
+            }}>
           </input>
 
           <br />
           <p style={{
             textAlign: "left",
             fontSize: "1.1rem",
+            marginBottom: 0,
+            fontFamily: "Gudea",
           }}>Message</p>
-          <div style={{width: "100%",}}>
+          <div style={{width: "100%", }}>
             <textarea
               title="Message"
               placeholder="Type your message..."
-              rows="4"
+              rows="6"
               style={{
-                display: "inline-block", 
-                verticalAlign: "bottom", 
-                width: "10rem", 
-                padding: "0.3rem", 
-                borderRadius: "3px"}}>
+                display: "inline-block",
+                verticalAlign: "bottom",
+                width: "20rem",
+                padding: "0.5rem",
+                borderRadius: "3px",
+                marginTop: "0.2rem",
+                fontSize: "1rem",
+              }}>
             </textarea>
             &emsp; &emsp;
             <button
@@ -57,6 +90,7 @@ export const ContactMe = () => {
                 fontSize: "1.1rem",
                 display: "inline-block",
                 color: "white",
+                fontFamily: "Gudea",
               }}>Send message
           </button>
           </div>
@@ -64,27 +98,30 @@ export const ContactMe = () => {
         </form>
       </div>
 
-      <div style={{
-        width: "100%", textAlign: "right", paddingTop: "5rem",
-      }}>
+      <div 
+        style={{
+          width: "80%",
+          textAlign: "right", 
+          paddingTop: "3rem", 
+          fontFamily: "Gudea", }}>
         <p
           style={{
-            fontSize: "0.8rem",
+            fontSize: "1rem",
             display: "inline-block"
           }}>Github
         </p>
         &emsp; &emsp; &emsp;
         <p
           style={{
-            fontSize: "0.8rem",
+            fontSize: "1rem",
             display: "inline-block"
           }}>LinkedIn
         </p>
         &emsp; &emsp; &emsp;
         <p
           style={{
-            fontSize: "0.8rem",
-            display: "inline-block", paddingRight: "4rem"
+            fontSize: "1rem",
+            display: "inline-block", 
           }}>Blog
         </p>
       </div>

@@ -18,7 +18,9 @@ export const Home = () => {
               },
               "color": {
                 // "value": "#ffffff"
-                "value": "#95c0b3"
+                // "value": "#95c0b3"
+                "value": "#b7d4d3"
+                // "value": "#282c34"
               },
               "size": {
                   "value": 1.2
@@ -35,7 +37,9 @@ export const Home = () => {
               "line_linked": {
                 "width": 0.3,
                 "distance": 95,
-                "opacity": 0.5
+                "opacity": 0.5,
+                "color": "#b7d4d3", //
+                // "color": "#282c34",
               },
               "move": {
                 "speed": 2

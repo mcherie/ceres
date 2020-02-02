@@ -8,23 +8,29 @@ const HomeDiv = {
 
 const AboutMeTitle = {
   color: "grey",
-  paddingTop: "4rem"
+  paddingTop: "4rem",
+  // fontFamily: "Alegreya Sans",
+  // fontFamily: "Handlee",
+    fontFamily: "Gudea",
+  fontSize: "2rem"
 }
 
 const AboutMeDesc = {
   // paddingTop: "1rem",
   // fontFamily: "cursive",
-  // fontFamily: "Roboto",
+  fontFamily: "Gudea",
   paddingLeft: "15rem",
   paddingRight: "15rem",
-  fontSize: "1rem"
+  fontSize: "1.2rem",
 }
 
 const Navbar = {
-  // background: "lightcoral",
-  // background: "#D58E84",
-  // background: "#C0C0C0",
-  background: "#282c34",
+  // background: "#d7d7d7", // very light grey / white
+  // background: "#D58E84", // coral-ly
+  background: "#C0C0C0",
+  background: "#282c34", // original color
+  // background: "black",
+  // background: "#2a2a2a",
   // borderBottom: "1px solid black",
   height: "5rem",
   left: 0,
@@ -42,34 +48,36 @@ const NavbarName = {
   // fontFamily: "Josefin Sans",
   // fontFamily: "Cookie",
   // fontFamily: "Great Vibes",
-  fontFamily: "Merienda",
-  fontSize: "2rem",
+  fontFamily: "Merienda One",
+  fontSize: "2.5rem",
   position: "absolute",
   top: "1rem",
-  left: "5rem"
+  left: "5rem",
 }
 
 const ContactDiv = {
   paddingBottom: "1rem",
   // justifyContent: "flex-start",
   width: "100%",
-  marginRight: "5rem",
+  // marginRight: "5rem",
   // alignContent: "center",
-  paddingLeft: "5rem",
+  paddingLeft: "20rem",
+  // paddingRight: "5rem",
+  // position: "relative",
 }
 
 const PortfolioDiv = {
   justifyContent: "flex-start",
-  width: "100%",
+  // width: "100%",
   alignContent: "center",
-  // marginLeft: "5rem",
-  // marginRight: "5rem"
+  paddingLeft: "5rem",
+  paddingRight: "5rem",
 }
 
 const ProjectDiv = {
-  width: "17rem",
+  width: "16rem",
   height: "23rem",
-  // border: "1px solid black",
+  border: "1px solid black",
   display: "inline-block",
   margin: "0.6rem",
   // background: "lightcoral",
@@ -79,13 +87,15 @@ const ProjectDiv = {
   // background: "#b7d4d3", // light brightish green
   // background: "#6ea9a8", // medium brightish teal
   // background: "#C0C0C0",
-  // background: "white",
-  background: "#6c6c6c", // medium grey
+  // background: "#3f3f3f", // dark grey
+  // background: "#6c6c6c", // medium grey
+  backgroundColor: "#f1f1f1",
   borderRadius: "5px",
   // color: "black",
-  color: "white",
+  // color: "white",
   // paddingBottom: "1rem",
   verticalAlign: "top", 
+  // boxShadow: "0 0 10px 0.2px #696969",
 }
 
 export const styles = {
