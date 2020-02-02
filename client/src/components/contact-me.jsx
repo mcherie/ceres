@@ -1,7 +1,29 @@
-import React from "react"
+import React, {useState} from "react"
 import {styles} from "../styles"
 
 export const ContactMe = () => {
+
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+
+  const handleName = (e) => {
+    setName(e.target.value)
+  }
+
+  const handleEmail = (e) => {
+    setEmail(e.target.value)
+  }
+
+  const handleMessage = (e) => {
+    setMessage(e.target.value)
+  }
+
+  const handleSubmitMsg = (e) => {
+    e.preventDefault();
+    console.log("name, email, message are:",name, email, message)
+  }
+
   return (
     <div style={styles.ContactDiv}>
       <p style={{
@@ -17,9 +39,12 @@ export const ContactMe = () => {
         style={{
           paddingLeft: "5rem", 
         }}>
-        <form style={{
+        <form 
+          style={{
           textAlign: "left",
-        }}>
+          }}
+          onSubmit={handleSubmitMsg}
+          method="POST">
 
           <p style={{
             textAlign: "left", 
@@ -30,6 +55,8 @@ export const ContactMe = () => {
           <input 
             title="Name" 
             placeholder="Name" 
+            value={name}
+            onChange={handleName}
             style={{
               width: "20rem", 
               padding: "0.5rem", 
@@ -48,6 +75,8 @@ export const ContactMe = () => {
           <input 
             title="Email" 
             placeholder="Email" 
+            value={email}
+            onChange={handleEmail}
             style={{
               width: "20rem", 
               padding: "0.5rem", 
@@ -67,6 +96,8 @@ export const ContactMe = () => {
             <textarea
               title="Message"
               placeholder="Type your message..."
+              value={message}
+              onChange={handleMessage}
               rows="6"
               style={{
                 display: "inline-block",
@@ -106,22 +137,23 @@ export const ContactMe = () => {
         <p
           style={{
             fontSize: "1rem",
-            display: "inline-block"
-          }}>Github
+            display: "inline-block", 
+
+          }}><a href="http://www.github.com/mcherie" target="_blank" style={{color: "white", textDecoration: "none"}}>Github</a>
         </p>
         &emsp; &emsp; 
         <p
           style={{
             fontSize: "1rem",
             display: "inline-block"
-          }}>LinkedIn
+          }}> <a href="https://www.linkedin.com/in/cherg/" target="_blank" style={{color: "white", textDecoration: "none"}}>LinkedIn</a>
         </p>
         &emsp; &emsp; 
         <p
           style={{
             fontSize: "1rem",
             display: "inline-block", 
-          }}>Blog
+          }}><a href="" style={{color: "white", textDecoration: "none"}}>Blog</a>
         </p>
       </div>
 

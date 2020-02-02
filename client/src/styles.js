@@ -18,24 +18,22 @@ const AboutMeDesc = {
 }
 
 const Navbar = {
-  background: "#C0C0C0",
+  // background: "#C0C0C0",
   background: "#282c34", // original color
-  height: "5rem",
-  left: 0,
+  height: "4rem",
   position: "fixed",
-  right: 0,
   top: 0,
   zIndex: 100,
-  overflow: "hidden",
   opacity: 0.98,
   width: "100%",
+  paddingTop: "0.8rem",
+  textAlign: "left",
 }
 
 const NavbarName = {
   fontFamily: "Merienda One",
   fontSize: "2.5rem",
-  top: "1rem",
-  left: "5rem",
+  marginLeft: "5rem",
 }
 
 const ContactDiv = {
