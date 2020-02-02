@@ -14,10 +14,10 @@ const AboutMeTitle = {
 const AboutMeDesc = {
   // paddingTop: "1rem",
   // fontFamily: "cursive",
-  fontFamily: "Roboto",
+  // fontFamily: "Roboto",
   paddingLeft: "15rem",
   paddingRight: "15rem",
-  fontSize: "1.2rem"
+  fontSize: "1rem"
 }
 
 const Navbar = {

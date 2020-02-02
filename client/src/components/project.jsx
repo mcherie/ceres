@@ -33,14 +33,15 @@ export const Project = (props) => {
       <p style={{
         fontSize: "0.9rem", 
         paddingHorizontal: "1rem", 
-        color: "#676767",
+        // color: "#676767",
         width: "95%", 
         height: "5%",
         // position: "relative", 
         // paddingVertical: "0.5rem",
         // paddingHorizontal: "0.5rem",
         // padding: "0 0.5rem 0 0.5rem",
-        padding: "0.4rem",
+        // marginBottom: "0.5rem",
+        // padding: "0.4rem",
         // overflow: "hidden",
         }}>
           {props.desc ? props.desc : "Description of the Project"}
