@@ -12,33 +12,81 @@ export const ContactMe = () => {
         fontFamily: "Merienda",
         fontSize: "2rem"
       }}>Contact me</p>
-      <div style={{width: "17rem", paddingLeft: "1rem"}}>
-        <form >
-          <input title="Name" placeholder="Name">
+      <div style={{width: "50rem", paddingLeft: "1rem"}}>
+        <form style={{
+          textAlign: "left",
+          marginLeft: "5.3rem",
+        }}>
+
+          <p style={{
+            textAlign: "left", fontSize: "1.1rem"
+          }}>Name</p>
+          <input title="Name" placeholder="Name" style={{width: "10rem", padding: "0.3rem", borderRadius: "3px"}}>
           </input>
+
           <br />
-          <input title="Email" placeholder="Email">
+          <p style={{
+            textAlign: "left", fontSize: "1.1rem", bottom: 0
+          }}>Email</p>
+          <input title="Email" placeholder="Email" style={{width: "10rem", padding: "0.3rem", borderRadius: "3px"}}>
           </input>
+
           <br />
-          <input title="Message" placeholder="Type your message...">
-          </input>
-          <br />
-          <button>Send message</button>
+          <p style={{
+            textAlign: "left",
+            fontSize: "1.1rem",
+          }}>Message</p>
+          <div style={{width: "100%",}}>
+            <textarea
+              title="Message"
+              placeholder="Type your message..."
+              rows="4"
+              style={{
+                display: "inline-block", 
+                verticalAlign: "bottom", 
+                width: "10rem", 
+                padding: "0.3rem", 
+                borderRadius: "3px"}}>
+            </textarea>
+            &emsp; &emsp;
+            <button
+              style={{
+                padding: "0.4rem",
+                borderRadius: "5px",
+                backgroundColor: "#6c6c6c",
+                fontSize: "1.1rem",
+                display: "inline-block",
+                color: "white",
+              }}>Send message
+          </button>
+          </div>
+
         </form>
       </div>
+
       <div style={{
-        // justifyContent: "flex-start",
-        // alignContent: "flex-start",
-        // width: "100%",
-        // alignContent: "center",
-        // display: "inline-block",
-        justifyContent: "flex-start",
-        width: "100%",
-        alignContent: "center",
+        width: "100%", textAlign: "right", paddingTop: "5rem",
       }}>
-        <text style={{fontSize: "0.8rem", textAlign: "center"}}>chergdev@gmail.com</text>
-        <p style={{fontSize: "0.8rem", textAlign: "center"}}>LinkedIn</p>
-        <p style={{fontSize: "0.8rem", textAlign: "center"}}>Blog</p>
+        <p
+          style={{
+            fontSize: "0.8rem",
+            display: "inline-block"
+          }}>Github
+        </p>
+        &emsp; &emsp; &emsp;
+        <p
+          style={{
+            fontSize: "0.8rem",
+            display: "inline-block"
+          }}>LinkedIn
+        </p>
+        &emsp; &emsp; &emsp;
+        <p
+          style={{
+            fontSize: "0.8rem",
+            display: "inline-block", paddingRight: "4rem"
+          }}>Blog
+        </p>
       </div>
 
 

@@ -50,10 +50,12 @@ const NavbarName = {
 }
 
 const ContactDiv = {
-  paddingBottom: "3rem",
+  paddingBottom: "1rem",
   // justifyContent: "flex-start",
   width: "100%",
+  marginRight: "5rem",
   // alignContent: "center",
+  paddingLeft: "5rem",
 }
 
 const PortfolioDiv = {
@@ -83,6 +85,7 @@ const ProjectDiv = {
   // color: "black",
   color: "white",
   // paddingBottom: "1rem",
+  verticalAlign: "top", 
 }
 
 export const styles = {

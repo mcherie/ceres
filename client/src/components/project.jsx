@@ -15,7 +15,7 @@ export const Project = (props) => {
         style={{
           width: "95%", 
           // height: "15rem", 
-          height: "60%",
+          height: "55%",
           // position: "relative", 
           // paddingVertical: "0.5rem",
           // paddingHorizontal: "0.5rem",

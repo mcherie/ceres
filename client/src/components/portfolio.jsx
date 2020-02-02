@@ -43,9 +43,9 @@ export const Portfolio = () => {
         title="TinyURL"
         img={TinyURL}
         desc="An app that shortens long URLs a la bit.ly" />
-      {/* <Project 
+      <Project 
       title="Clippit"
-      desc="A resource wall where users can share, like, and rate resources." /> */}
+      desc="A resource wall where users can share, like, and rate resources." />
     </div>
   )
 }
