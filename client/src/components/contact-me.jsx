@@ -6,7 +6,6 @@ export const ContactMe = () => {
     <div style={styles.ContactDiv}>
       <p style={{
         textAlign: "left",
-        // marginLeft: "5rem",
         marginTop: "5rem",
         marginBottom: "3rem",
         fontFamily: "Merienda",
@@ -16,13 +15,10 @@ export const ContactMe = () => {
 
       <div 
         style={{
-          // width: "50rem", 
           paddingLeft: "5rem", 
-          // marginLeft: "5rem", 
         }}>
         <form style={{
           textAlign: "left",
-          // width: "35rem",
         }}>
 
           <p style={{
@@ -102,7 +98,6 @@ export const ContactMe = () => {
 
       <div 
         style={{
-          // width: "80%",
           textAlign: "right", 
           paddingTop: "3rem", 
           fontFamily: "Gudea", 
