@@ -6,6 +6,7 @@ export const ContactMe = () => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
+  const [apiTest, setApiTest] = useState("")
 
   const handleName = (e) => {
     setName(e.target.value)
@@ -23,8 +24,16 @@ export const ContactMe = () => {
     e.preventDefault();
     console.log("name, email, message are:",name, email, message)
 
-    
+    // this is where we change to HEROKU deployed server
+    fetch("http://localhost:9000/testAPI")
+    .then(res => res.json())
+    .then(data => setApiTest(data.express))
+    .catch(err => Error("Error fetching from backend", err))
+
+    console.log("apiTest is", apiTest)
+
   }
+
 
   return (
     <div style={styles.ContactDiv}>
@@ -141,14 +150,14 @@ export const ContactMe = () => {
             fontSize: "1rem",
             display: "inline-block", 
 
-          }}><a href="http://www.github.com/mcherie" target="_blank" style={{color: "white", textDecoration: "none"}}>Github</a>
+          }}><a href="http://www.github.com/mcherie" target="_blank" rel="noopener noreferrer" style={{color: "white", textDecoration: "none"}}>Github</a>
         </p>
         &emsp; &emsp; 
         <p
           style={{
             fontSize: "1rem",
             display: "inline-block"
-          }}> <a href="https://www.linkedin.com/in/cherg/" target="_blank" style={{color: "white", textDecoration: "none"}}>LinkedIn</a>
+          }}> <a href="https://www.linkedin.com/in/cherg/" target="_blank" rel="noopener noreferrer" style={{color: "white", textDecoration: "none"}}>LinkedIn</a>
         </p>
         &emsp; &emsp; 
         <p

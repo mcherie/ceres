@@ -27,7 +27,8 @@ export const Project = (props) => {
           style={{
             width: "100%", 
             borderRadius: "5px"}} 
-          src={props.img ? props.img : null} ></img>
+          src={props.img ? props.img : null} 
+          alt=""></img>
       </div>
       <p style={{
         fontSize: "0.9rem", 
