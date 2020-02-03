@@ -22,6 +22,8 @@ export const ContactMe = () => {
   const handleSubmitMsg = (e) => {
     e.preventDefault();
     console.log("name, email, message are:",name, email, message)
+
+    
   }
 
   return (
