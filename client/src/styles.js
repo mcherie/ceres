@@ -13,7 +13,7 @@ const AboutMeTitle = {
 
 const AboutMeDesc = {
   fontFamily: "Gudea",
-  fontSize: "1.2rem",
+  fontSize: "1.1rem",
   alignContent: "center",
   paddingLeft: "15rem",
   paddingRight: "15rem",
