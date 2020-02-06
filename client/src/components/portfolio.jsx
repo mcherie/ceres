@@ -23,7 +23,7 @@ export const Portfolio = () => {
       <Project
         title="BridgeBot"
         img={BridgeBot}
-        desc="A web charts visualization app, and interacts with Slack API and Firebase" />
+        desc="A web charts visualization app and backend that interacts with Slack API and Firebase" />
       <Project
         title="Web & mobile banking"
         img={NorthOne}
@@ -35,7 +35,7 @@ export const Portfolio = () => {
       <Project 
         title="Chatty App" 
         img={ChattyApp}
-        desc="A chat messenger application built in React and Wbsockets"/>
+        desc="A chat messenger application built with React and websockets"/>
       <Project 
         title="Tweeter"
         img={Tweeter}

@@ -15,6 +15,8 @@ const AboutMeDesc = {
   fontFamily: "Gudea",
   fontSize: "1.2rem",
   alignContent: "center",
+  paddingLeft: "15rem",
+  paddingRight: "15rem",
 }
 
 const Navbar = {

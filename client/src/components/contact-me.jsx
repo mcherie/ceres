@@ -164,7 +164,7 @@ export const ContactMe = () => {
           style={{
             fontSize: "1rem",
             display: "inline-block", 
-          }}><a href="" style={{color: "white", textDecoration: "none"}}>Blog</a>
+          }}><span style={{color: "darkgrey",}}>Blog</span>
         </p>
       </div>
 
