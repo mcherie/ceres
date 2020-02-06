@@ -2,8 +2,10 @@ import React from "react";
 import {styles} from "../styles"
 
 export const Project = (props) => {
+  
   return (
-    <div style={styles.ProjectDiv}>
+    <div style={styles.ProjectDiv}
+          onClick={() => window.open(props.link, "_blank")}>
 
       <p 
         style={{

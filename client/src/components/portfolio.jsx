@@ -23,34 +23,42 @@ export const Portfolio = () => {
       <Project
         title="BridgeBot"
         img={BridgeBot}
-        desc="A web charts visualization app and backend that interacts with Slack API and Firebase" />
+        desc="A web charts visualization app and backend that interacts with Slack API and Firebase" 
+        link="https://slackbot-9.netlify.com/"/>
       <Project
         title="Web & mobile banking"
         img={NorthOne}
-        desc="NorthOne banking app for small business, free-lancers, or sole propietors" />
+        desc="NorthOne banking app for small business, free-lancers, or sole propietors" 
+        link="https://northone.com/"/>
       <Project 
         title="Gamebox"
         img={Wingit}
-        desc="A platform that hosts social party games to play with friends" />
+        desc="A platform that hosts social party games to play with friends" 
+        link="https://gamebox.netlify.com/"/>
       <Project 
         title="Chatty App" 
         img={ChattyApp}
-        desc="A chat messenger application built with React and websockets"/>
+        desc="A chat messenger application built with React and websockets"
+        link="https://github.com/mcherie/ChattyApp"/>
       <Project 
         title="Tweeter"
         img={Tweeter}
-        desc="A Twitter clone" />
+        desc="A Twitter clone" 
+        link="https://github.com/mcherie/TweeterProject"/>
       <Project 
         title="Github API search"
         img={Github}
-        desc="Allows you to fetch most recent forked repos and pull requests from Github" />
+        desc="Allows you to fetch most recent forked repos and pull requests from Github" 
+        link="https://github.com/mcherie/personal-project-react"/>
       <Project 
         title="Clippit"
-        desc="A resource wall where users can share, like, and rate resources." />
+        desc="A resource wall where users can share, like, and rate resources." 
+        link=""/>
       <Project 
         title="TinyURL"
         img={TinyURL}
-        desc="An app that shortens long URLs a la bit.ly" />
+        desc="An app that shortens long URLs a la bit.ly" 
+        link="https://github.com/mcherie/TinyApp_Project"/>
     </div>
   )
 }
