@@ -2,14 +2,18 @@
 const HomeDiv = {
   paddingTop: "5rem",
   width: "100%",
-  height: "22rem",
+  // height: "22rem",
+  position: "fixed",
+  top: 0,
+  zIndex: -1,
 }
 
 const AboutMeTitle = {
   color: "grey",
-  paddingTop: "4rem",
+  // paddingTop: "4rem",
+  paddingTop: "28rem",
   fontFamily: "Gudea",
-  fontSize: "2rem"
+  fontSize: "1.8rem",
 }
 
 const AboutMeDesc = {
@@ -22,9 +26,10 @@ const AboutMeDesc = {
 }
 
 const Navbar = {
-  // background: "#C0C0C0",
+  // background: "#b7d4d3", // dufault teal?
   // background: "#282c34", // original color
-  backgroundColor: "#dbe9e9",
+  // backgroundColor: "#dbe9e9", // very very light pastel teal
+  backgroundColor: "#cee8e3",
   height: "4rem",
   position: "fixed",
   top: 0,
@@ -38,7 +43,7 @@ const Navbar = {
 const NavbarName = {
   fontFamily: "Merienda One",
   fontSize: "2.5rem",
-  marginLeft: "5rem",
+  marginLeft: "10rem",
   color: "#3f3f3f", // remove this to make it plain white
 }
 
@@ -75,7 +80,8 @@ const ProjectDiv = {
   // background: "#3f3f3f", // dark grey
   // background: "#6c6c6c", // medium grey
   // backgroundColor: "#f1f1f1", // chosen one
-  backgroundColor: "#dbe9e9",
+  // backgroundColor: "#dbe9e9", // very light teal - default?
+  background: "#cee8e3", // good
   borderRadius: "5px",
   // color: "black",
   // color: "white",

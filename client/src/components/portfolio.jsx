@@ -50,10 +50,10 @@ export const Portfolio = () => {
         img={Github}
         desc="Allows you to fetch most recent forked repos and pull requests from Github" 
         link="https://github.com/mcherie/personal-project-react"/>
-      <Project 
+      {/* <Project 
         title="Clippit"
         desc="A resource wall where users can share, like, and rate resources" 
-        link=""/>
+        link=""/> */}
       <Project 
         title="TinyURL"
         img={TinyURL}
