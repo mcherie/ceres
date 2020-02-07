@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+require('dotenv').config()
+
 // router.get("/", (req, res) => {
 //   console.log("Okay I was hit?")
 //   res.send({ express: "Okay, API is working properly"})
@@ -25,8 +27,8 @@ const transport = {
   auth: {
     // user: creds.USER,
     // pass: creds.PASS,
-    user: ENV['USER'],
-    pass: ENV['PASS'],
+    user: process.env['USER'],
+    pass: process.env['PASS'],
   }
 }
 
