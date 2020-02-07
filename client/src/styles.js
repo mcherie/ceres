@@ -18,11 +18,13 @@ const AboutMeDesc = {
   alignContent: "center",
   paddingLeft: "15rem",
   paddingRight: "15rem",
+  color: "#3f3f3f", // remove this to make it plain white
 }
 
 const Navbar = {
   // background: "#C0C0C0",
-  background: "#282c34", // original color
+  // background: "#282c34", // original color
+  backgroundColor: "#dbe9e9",
   height: "4rem",
   position: "fixed",
   top: 0,
@@ -37,12 +39,14 @@ const NavbarName = {
   fontFamily: "Merienda One",
   fontSize: "2.5rem",
   marginLeft: "5rem",
+  color: "#3f3f3f", // remove this to make it plain white
 }
 
 const ContactDiv = {
   paddingBottom: "1rem",
   justifyContent: "flex-start",
   width: "100%",
+  color: "#3f3f3f", // remove this to make it plain white
 }
 
 const PortfolioDiv = {
@@ -50,12 +54,14 @@ const PortfolioDiv = {
   alignContent: "center",
   paddingLeft: "5rem",
   paddingRight: "5rem",
+  color: "#3f3f3f", // remove this to make it plain white
 }
 
 const ProjectDiv = {
   width: "16rem",
   height: "23rem",
-  border: "1px solid black",
+  // border: "1px solid black",
+  border: "1px solid white",
   display: "inline-block",
   margin: "0.6rem",
   // cursor: "pointer",
@@ -68,7 +74,8 @@ const ProjectDiv = {
   // background: "#C0C0C0",
   // background: "#3f3f3f", // dark grey
   // background: "#6c6c6c", // medium grey
-  backgroundColor: "#f1f1f1",
+  // backgroundColor: "#f1f1f1", // chosen one
+  backgroundColor: "#dbe9e9",
   borderRadius: "5px",
   // color: "black",
   // color: "white",

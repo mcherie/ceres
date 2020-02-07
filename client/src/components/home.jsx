@@ -23,7 +23,7 @@ export const Home = () => {
                 // "value": "#282c34"
               },
               "size": {
-                  "value": 1.5
+                  "value": 1.8
               },
               "shape": {
                 "type": "polygon",
@@ -35,9 +35,9 @@ export const Home = () => {
                 "type": "polygon"
               },
               "line_linked": {
-                "width": 0.3,
+                "width": 0.8,
                 "distance": 95,
-                "opacity": 0.5,
+                "opacity": 0.7,
                 "color": "#b7d4d3", //
                 // "color": "#282c34",
               },
