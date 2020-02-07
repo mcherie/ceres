@@ -11,6 +11,10 @@ const router = express.Router();
 //   res.send("One more time, API is working properly")
 // });
 
+router.get("/", (req, res) => {
+  res.send("Hello, you've reached /send-message")
+})
+
 router.post("/", (req, res) => {
 
 const nodemailer = require('nodemailer');
