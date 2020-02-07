@@ -6,7 +6,7 @@ export const AboutMe = () => {
     <div>
       <p style={styles.AboutMeTitle}> Hello, I'm Cher <span>👋</span></p>
       <p style={styles.AboutMeDesc}> I am a fullstack developer.
-      <br /> I'm always interested in learning new things, and have hands on experience in creating, maintaining, and desigining web and mobile applications.
+      <br /> I'm always interested in learning new things, and have experience in creating, maintaining, and desigining web and mobile applications.
       </p>
     </div>
   )

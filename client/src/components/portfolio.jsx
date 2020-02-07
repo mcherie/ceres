@@ -16,7 +16,7 @@ export const Portfolio = () => {
         textAlign: "left",
         marginLeft: "5.3rem",
         marginTop: "5rem",
-        marginBottom: "4rem",
+        marginBottom: "3rem",
         fontFamily: "Merienda", 
         fontSize: "2rem"
       }}>previous projects</p>

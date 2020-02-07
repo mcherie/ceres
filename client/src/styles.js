@@ -30,19 +30,19 @@ const Navbar = {
   // background: "#282c34", // original color
   // backgroundColor: "#dbe9e9", // very very light pastel teal
   backgroundColor: "#cee8e3",
-  height: "4rem",
+  height: "5rem",
   position: "fixed",
   top: 0,
   zIndex: 100,
   opacity: 0.98,
   width: "100%",
-  paddingTop: "0.8rem",
+  paddingTop: "1rem",
   textAlign: "left",
 }
 
 const NavbarName = {
   fontFamily: "Merienda One",
-  fontSize: "2.5rem",
+  fontSize: "3rem",
   marginLeft: "10rem",
   color: "#3f3f3f", // remove this to make it plain white
 }
