@@ -6,7 +6,7 @@ var logger = require('morgan');
 const cors = require("cors");
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-const testAPIRouter = require("./routes/testAPI");
+const sendMessageRouter = require("./routes/sendMessage");
 
 var app = express();
 
@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // just the roots
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use("/testAPI", testAPIRouter);
+app.use("/send-message", sendMessageRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

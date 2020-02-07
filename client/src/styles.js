@@ -30,13 +30,13 @@ const Navbar = {
   // background: "#282c34", // original color
   // backgroundColor: "#dbe9e9", // very very light pastel teal
   backgroundColor: "#cee8e3",
-  height: "5rem",
+  height: "4.5rem",
   position: "fixed",
   top: 0,
   zIndex: 100,
   opacity: 0.98,
   width: "100%",
-  paddingTop: "1rem",
+  paddingTop: "0.7rem",
   textAlign: "left",
 }
 

@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import {styles} from "../styles"
+import axios from "axios"
 
 export const ContactMe = () => {
 
@@ -25,12 +26,32 @@ export const ContactMe = () => {
     console.log("name, email, message are:",name, email, message)
 
     // this is where we change to HEROKU deployed server
-    fetch("http://localhost:9000/testAPI")
-    .then(res => res.json())
-    .then(data => setApiTest(data.express))
-    .catch(err => Error("Error fetching from backend", err))
+    // fetch("http://localhost:9000/testAPI")
+    // .then(res => res.json())
+    // .then(data => setApiTest(data.express))
+    // .catch(err => Error("Error fetching from backend", err))
 
-    console.log("apiTest is", apiTest)
+    // console.log("apiTest is", apiTest)
+
+    axios({
+      method: "POST",
+      // this is where we change to HEROKU deployed server
+      url: "http://localhost:9000/send-message",
+      data: {
+        name: name,
+        email: email,
+        message: message,
+      }
+    }).then((response) => {
+      if (response.data.msg === "success") {
+        alert("Email sent")
+        setName("")
+        setEmail("")
+        setMessage("")
+      } else if (response.data.msg === "fail") {
+        alert ("Please try again")
+      }
+    })
 
   }
 
