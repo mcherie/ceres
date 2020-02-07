@@ -2,6 +2,7 @@
 const HomeDiv = {
   paddingTop: "5rem",
   width: "100%",
+  height: "22rem",
 }
 
 const AboutMeTitle = {

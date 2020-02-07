@@ -28,7 +28,7 @@ export const Portfolio = () => {
       <Project
         title="Web & mobile banking"
         img={NorthOne}
-        desc="NorthOne banking app for small business, free-lancers, or sole propietors" 
+        desc="Worked at NorthOne to create a banking app for small business, free-lancers, and sole propietors" 
         link="https://northone.com/"/>
       <Project 
         title="Gamebox"
@@ -52,7 +52,7 @@ export const Portfolio = () => {
         link="https://github.com/mcherie/personal-project-react"/>
       <Project 
         title="Clippit"
-        desc="A resource wall where users can share, like, and rate resources." 
+        desc="A resource wall where users can share, like, and rate resources" 
         link=""/>
       <Project 
         title="TinyURL"
