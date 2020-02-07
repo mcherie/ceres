@@ -18,13 +18,15 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
 
 const nodemailer = require('nodemailer');
-const creds = require('../config')
+// const creds = require('../config')
 
 const transport = {
   host: 'smtp.gmail.com',
   auth: {
-    user: creds.USER,
-    pass: creds.PASS,
+    // user: creds.USER,
+    // pass: creds.PASS,
+    user: ENV['USER'],
+    pass: ENV['PASS'],
   }
 }
 
