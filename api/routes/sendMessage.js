@@ -38,7 +38,8 @@ transporter.verify((error, success) => {
 
   const mail = {
     from: name,
-    to: creds.USER,
+    // to: creds.USER,
+    to: process.env.USER,
     subject: `Website: Message from ${name} at ${email}`,
 
     html: message
