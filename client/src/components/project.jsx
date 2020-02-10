@@ -20,7 +20,7 @@ export const Project = (props) => {
       <div
         style={{
           width: "95%", 
-          height: "55%",
+          height: "45%",
           paddingLeft: "0.45rem",
           paddingRight: "0.45rem",
           overflow: "hidden",
@@ -41,6 +41,16 @@ export const Project = (props) => {
         fontFamily: "Gudea",
         }}>
           {props.desc ? props.desc : "Description of the Project"}
+      </p>
+      <p style={{
+        fontSize: "0.9rem", 
+        width: "97%", 
+        height: "15%",
+        color: "#3f3f3f",
+        paddingLeft: "0.4rem",
+        fontFamily: "Alegreya Sans"
+        }}>
+          {props.tech ? props.tech : "Tech used"}
       </p>
 
     </div>
