@@ -50,6 +50,8 @@ export const ContactMe = () => {
         setEmail("")
         setMessage("")
       } else if (response.data.msg === "fail") {
+        console.log("Data is: ", response.data.dataIs)
+        console.log("Error is: ", response.data.errorIs)
         alert ("Please try again")
       }
     })

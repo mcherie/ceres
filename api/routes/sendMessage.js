@@ -47,9 +47,7 @@ transporter.verify((error, success) => {
 
   transporter.sendMail(mail, (err, data) => {
     if (err) {
-      console.log("Data is: ", data)
-      console.log("Error is: ", err)
-      res.json({ msg: "fail" })
+      res.json({ msg: "fail", errorIs: err, dataIs: data})
     } else {
       res.json({ msg: "success" })
     }
