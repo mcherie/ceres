@@ -36,8 +36,8 @@ export const ContactMe = () => {
     axios({
       method: "POST",
       // this is where we change to HEROKU deployed server
-      // url: "http://localhost:9000/send-message",
-      url: "https://ceres-api.herokuapp.com/send-message",
+      url: "http://localhost:9000/send-message",
+      // url: "https://ceres-api.herokuapp.com/send-message",
       data: {
         name: name,
         email: email,

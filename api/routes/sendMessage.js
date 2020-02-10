@@ -1,17 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-require('dotenv').config()
-
-// router.get("/", (req, res) => {
-//   console.log("Okay I was hit?")
-//   res.send({ express: "Okay, API is working properly"})
-// });
-
-
-// router.get("/one-more", (req, res) => {
-//   res.send("One more time, API is working properly")
-// });
+// require('dotenv').config()
 
 router.get("/", (req, res) => {
   res.send("Hello, you've reached /send-message")
@@ -20,15 +10,15 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
 
 const nodemailer = require('nodemailer');
-// const creds = require('../config')
+const creds = require('../config')
 
 const transport = {
   host: 'smtp.gmail.com',
   auth: {
-    // user: creds.USER,
-    // pass: creds.PASS,
-    user: process.env['USER'],
-    pass: process.env['PASS'],
+    user: creds.USER,
+    pass: creds.PASS,
+    // user: process.env['USER'],
+    // pass: process.env['PASS'],
   }
 }
 
