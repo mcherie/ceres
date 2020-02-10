@@ -1,36 +1,34 @@
 const express = require("express");
 const router = express.Router();
 
-// require('dotenv').config()
-
 router.get("/", (req, res) => {
   res.send("Hello, you've reached /send-message")
 })
 
 router.post("/", (req, res) => {
 
-const nodemailer = require('nodemailer');
-// const creds = require('../config')
+  const nodemailer = require('nodemailer');
+  // const creds = require('../config') // to use if running locally
 
-const transport = {
-  host: 'smtp.gmail.com',
-  auth: {
-    // user: creds.USER,
-    // pass: creds.PASS,
-    user: process.env.USER,
-    pass: process.env.PASS,
+  const transport = {
+    host: 'smtp.gmail.com',
+    auth: {
+      // user: creds.USER, // to use if running locally
+      // pass: creds.PASS, // to use if running locally
+      user: process.env.USER,
+      pass: process.env.PASS,
+    }
   }
-}
 
-const transporter = nodemailer.createTransport(transport)
+  const transporter = nodemailer.createTransport(transport)
 
-transporter.verify((error, success) => {
-  if (error) {
-    console.log("Error: ", error)
-  } else {
-    console.log("All is working fine")
-  }
-})
+  transporter.verify((error, success) => {
+    if (error) {
+      console.log("Error: ", error)
+    } else {
+      console.log("All is working fine")
+    }
+  })
 
   const name = req.body.name
   const email = req.body.email
@@ -38,10 +36,9 @@ transporter.verify((error, success) => {
 
   const mail = {
     from: name,
-    // to: creds.USER,
+    // to: creds.USER, // to use if runing locally
     to: process.env.USER,
     subject: `Website: Message from ${name} at ${email}`,
-
     html: message
   }
 

@@ -7,7 +7,6 @@ export const ContactMe = () => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
-  const [apiTest, setApiTest] = useState("")
 
   const handleName = (e) => {
     setName(e.target.value)
@@ -23,20 +22,16 @@ export const ContactMe = () => {
 
   const handleSubmitMsg = (e) => {
     e.preventDefault();
-    console.log("name, email, message are:",name, email, message)
 
-    // this is where we change to HEROKU deployed server
-    // fetch("http://localhost:9000/testAPI")
+    // fetch("http://localhost:9000/testAPI") // or
+    // fetch("https://ceres-api.herokuapp.com/send-message")
     // .then(res => res.json())
     // .then(data => setApiTest(data.express))
     // .catch(err => Error("Error fetching from backend", err))
 
-    // console.log("apiTest is", apiTest)
-
     axios({
       method: "POST",
-      // this is where we change to HEROKU deployed server
-      // url: "http://localhost:9000/send-message",
+      // url: "http://localhost:9000/send-message", or
       url: "https://ceres-api.herokuapp.com/send-message",
       data: {
         name: name,
@@ -50,7 +45,6 @@ export const ContactMe = () => {
         setEmail("")
         setMessage("")
       } else if (response.data.msg === "fail") {
-        console.log("Data is: ", response.data.dataIs)
         console.log("Error is: ", response.data.errorIs)
         alert ("Please try again")
       }
