@@ -10,8 +10,21 @@ router.post("/", (req, res) => {
   const nodemailer = require('nodemailer');
   // const creds = require('../config') // to use if running locally
 
+  // const transport = {
+  //   host: 'smtp.gmail.com',
+  //   auth: {
+  //     // user: creds.USER, // to use if running locally
+  //     // pass: creds.PASS, // to use if running locally
+  //     user: process.env.USER,
+  //     pass: process.env.PASS,
+  //   }
+  // }
+
   const transport = {
-    host: 'smtp.gmail.com',
+    host: 'smtp.mail.yahoo.com',
+    port: 465,
+    service:'yahoo',
+    secure: false,
     auth: {
       // user: creds.USER, // to use if running locally
       // pass: creds.PASS, // to use if running locally
@@ -35,9 +48,13 @@ router.post("/", (req, res) => {
   const message = req.body.message
 
   const mail = {
-    from: name,
+    // from: name,
+    // from: creds.USER, // to use if running locally
+    from: process.env.USER,
     // to: creds.USER, // to use if runing locally
-    to: process.env.USER,
+    // to: process.env.USER,
+    // to: creds.TO_USER, // to use if running locally
+    to: process.env.TO_USER,
     subject: `Website: Message from ${name} at ${email}`,
     html: message
   }
