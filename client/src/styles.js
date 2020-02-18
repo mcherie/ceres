@@ -20,8 +20,8 @@ const AboutMeDesc = {
   fontFamily: "Gudea",
   fontSize: "1.1rem",
   alignContent: "center",
-  paddingLeft: "15rem",
-  paddingRight: "15rem",
+  paddingLeft: "20rem",
+  paddingRight: "20rem",
   color: "#3f3f3f", // remove this to make it plain white
 }
 
@@ -52,6 +52,7 @@ const ContactDiv = {
   justifyContent: "flex-start",
   width: "100%",
   color: "#3f3f3f", // remove this to make it plain white
+  // alignContent: "center",
 }
 
 const PortfolioDiv = {
