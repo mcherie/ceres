@@ -63,6 +63,15 @@ const PortfolioDiv = {
   color: "#3f3f3f", // remove this to make it plain white
 }
 
+const ResumeDiv = {
+  // justifyContent: "flex-start",
+  // alignContent: "center",
+  // paddingLeft: "5rem",
+  // paddingRight: "5rem",
+  // color: "#3f3f3f",
+  alignContent: "left",
+}
+
 const ProjectDiv = {
   width: "16rem",
   height: "23rem",
@@ -99,5 +108,6 @@ export const styles = {
   ContactDiv,
   ProjectDiv,
   PortfolioDiv,
-  HomeDiv
+  HomeDiv,
+  ResumeDiv,
 } 

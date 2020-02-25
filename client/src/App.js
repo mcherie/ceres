@@ -7,6 +7,7 @@ import {AboutMe} from './components/about-me';
 import { Portfolio } from "./components/portfolio"
 import { Navbar } from "./components/navbar"
 import {ContactMe} from './components/contact-me';
+import { Resume } from "./components/resume"
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
         <Home />
         <AboutMe />
         <Portfolio />
-        <ContactMe />
+        <Resume />
+        <ContactMe />s
       </header>
     </div>
   );
