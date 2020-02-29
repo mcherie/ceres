@@ -79,7 +79,7 @@ const ProjectDiv = {
   border: "1px solid white",
   display: "inline-block",
   margin: "0.6rem",
-  // cursor: "pointer",
+  cursor: "pointer",
   // background: "lightcoral",
   // background: "#D58E84", // lighter touch of orange coral
   // background: "#95c0b3", // medium brightish green

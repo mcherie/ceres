@@ -29,7 +29,7 @@ function App() {
         <Home />
         <AboutMe />
         <Portfolio />
-        <Resume />
+        {/* <Resume /> */}
         <ContactMe />s
       </header>
     </div>
