@@ -100,6 +100,14 @@ const ProjectDiv = {
   // boxShadow: "0 0 10px 0.2px #696969",
 }
 
+const FooterDiv = {
+  fontFamily: "Gudea",
+  paddingTop: "2rem",
+  paddingBottom: "1.5rem",
+  display: "flex",
+  justifyContent: "flex-end",
+}
+
 export const styles = {
   AboutMeTitle: AboutMeTitle,
   AboutMeDesc,
@@ -110,4 +118,5 @@ export const styles = {
   PortfolioDiv,
   HomeDiv,
   ResumeDiv,
+  FooterDiv
 } 

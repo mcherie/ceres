@@ -8,6 +8,8 @@ import { Portfolio } from "./components/portfolio"
 import { Navbar } from "./components/navbar"
 import {ContactMe} from './components/contact-me';
 import { Resume } from "./components/resume"
+import { Footer } from "./components/footer"
+
 
 function App() {
   return (
@@ -30,7 +32,8 @@ function App() {
         <AboutMe />
         <Portfolio />
         {/* <Resume /> */}
-        <ContactMe />s
+        <ContactMe />
+        <Footer />
       </header>
     </div>
   );
