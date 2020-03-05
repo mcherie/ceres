@@ -32,9 +32,9 @@ function App() {
         <AboutMe />
         <Portfolio />
         {/* <Resume /> */}
-        <ContactMe />
-        <Footer />
       </header>
+      <ContactMe />
+      <Footer />
     </div>
   );
 }

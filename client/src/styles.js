@@ -106,6 +106,7 @@ const FooterDiv = {
   paddingBottom: "1.5rem",
   display: "flex",
   justifyContent: "flex-end",
+  paddingRight: "5rem",
 }
 
 export const styles = {
