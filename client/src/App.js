@@ -28,9 +28,9 @@ function App() {
           Learn React
         </a> */}
         <Navbar />
-        <Home />
-        <AboutMe />
       </header>
+      <Home />
+      <AboutMe />
       <Portfolio />
         {/* <Resume /> */}
       <ContactMe />

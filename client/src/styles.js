@@ -10,8 +10,6 @@ const HomeDiv = {
 
 const AboutMeTitle = {
   color: "grey",
-  // paddingTop: "4rem",
-  paddingTop: "28rem",
   fontFamily: "Gudea",
   fontSize: "1.8rem",
 }
@@ -19,9 +17,8 @@ const AboutMeTitle = {
 const AboutMeDesc = {
   fontFamily: "Gudea",
   fontSize: "1.1rem",
-  alignContent: "center",
-  paddingLeft: "20rem",
-  paddingRight: "20rem",
+  paddingLeft: "40vh",
+  paddingRight: "40vh",
   color: "#3f3f3f", // remove this to make it plain white
 }
 
