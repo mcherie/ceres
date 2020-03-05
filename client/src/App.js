@@ -30,9 +30,9 @@ function App() {
         <Navbar />
         <Home />
         <AboutMe />
-        <Portfolio />
-        {/* <Resume /> */}
       </header>
+      <Portfolio />
+        {/* <Resume /> */}
       <ContactMe />
       <Footer />
     </div>

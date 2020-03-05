@@ -14,7 +14,7 @@ export const Portfolio = () => {
     <div style={styles.PortfolioDiv}>
       <p style={{
         textAlign: "left",
-        marginLeft: "5.3rem",
+        marginLeft: "1.2rem",
         marginTop: "5rem",
         marginBottom: "3rem",
         fontFamily: "Merienda", 
