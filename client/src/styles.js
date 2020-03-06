@@ -35,6 +35,7 @@ const Navbar = {
   width: "100%",
   paddingTop: "0.7rem",
   textAlign: "left",
+  borderBottom: "3px solid #e9e9e9",
 }
 
 const NavbarName = {
