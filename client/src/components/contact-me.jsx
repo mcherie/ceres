@@ -31,8 +31,10 @@ export const ContactMe = () => {
 
     axios({
       method: "POST",
-      // url: "http://localhost:9000/send-message",
-      url: "https://ceres-api.herokuapp.com/send-message",
+      // below if local
+      url: "http://localhost:9000/send-message",
+      // below if deployed
+      // url: "https://ceres-api.herokuapp.com/send-message",
       data: {
         name: name,
         email: email,
@@ -58,7 +60,7 @@ export const ContactMe = () => {
       <p style={{
         textAlign: "left",
         marginTop: "5rem",
-        marginBottom: "3rem",
+        marginBottom: "2rem",
         fontFamily: "Merienda",
         fontSize: "2rem",
         paddingLeft: "5rem",
