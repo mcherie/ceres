@@ -1,18 +1,17 @@
-import React from "react"
+import React, { useState } from "react"
 import {styles} from "../styles"
-import {useState} from "react"
 
 export const Resume = () => {
 
-  const [res, setRes] = useState("")
+  const [resume, setResume] = useState("")
 
   const handleOpenResume = (e) => {
     e.preventDefault();
 
     fetch("http://localhost:9000/resume")
-      .then( res => res.json())
-      .then( data => setRes(data))
-      .catch( err => new Error("Error fetching resume from backend", err))
+      .then(resp => resp.json())
+      .then(data => setResume(data.express))
+      .catch(err => new Error("Error fetching resume from backend", err))
 
   }
 
@@ -32,7 +31,7 @@ export const Resume = () => {
         }}
         onClick={handleOpenResume}
         > Open Resume </button>
-        <p> {res} </p>
+        <p> {resume} </p>
     </div>
   )
 }
