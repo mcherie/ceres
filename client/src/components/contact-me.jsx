@@ -32,9 +32,9 @@ export const ContactMe = () => {
     axios({
       method: "POST",
       // below if local
-      url: "http://localhost:9000/send-message",
+      // url: "http://localhost:9000/send-message",
       // below if deployed
-      // url: "https://ceres-api.herokuapp.com/send-message",
+      url: "https://ceres-api.herokuapp.com/send-message",
       data: {
         name: name,
         email: email,
