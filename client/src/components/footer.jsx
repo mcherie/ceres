@@ -1,5 +1,6 @@
 import React from "react"
 import { styles } from "../styles"
+import ResumePDF from "../images/cherg_dev.pdf"
 
 export const Footer = () => {
   return (
@@ -9,7 +10,7 @@ export const Footer = () => {
           fontSize: "1rem",
           display: "inline-block",
         }}><a
-          href="http://www.github.com/mcherie" target="_blank" rel="noopener noreferrer" style={{
+          href={ResumePDF} target="_blank" rel="noopener noreferrer" style={{
             // color: "white",
             color: "#3f3f3f", // remove this to make it plain white 
             textDecoration: "none",
