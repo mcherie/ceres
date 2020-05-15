@@ -13,7 +13,7 @@ export const Footer = () => {
           href={ResumePDF} target="_blank" rel="noopener noreferrer" style={{
             color: "#3f3f3f", // remove this to make it plain white 
             textDecoration: "none",
-          }}>Resume</a>
+          }}>Resumé</a>
       </p>
       &emsp; &emsp;
       <p
