@@ -11,7 +11,6 @@ export const Footer = () => {
           display: "inline-block",
         }}><a
           href={ResumePDF} target="_blank" rel="noopener noreferrer" style={{
-            // color: "white",
             color: "#3f3f3f", // remove this to make it plain white 
             textDecoration: "none",
           }}>Resume</a>
@@ -23,7 +22,6 @@ export const Footer = () => {
           display: "inline-block",
         }}><a
           href="http://www.github.com/mcherie" target="_blank" rel="noopener noreferrer" style={{
-            // color: "white",
             color: "#3f3f3f", // remove this to make it plain white 
             textDecoration: "none",
           }}>Github</a>
@@ -37,7 +35,6 @@ export const Footer = () => {
           href="https://www.linkedin.com/in/cherg/" target="_blank"
           rel="noopener noreferrer"
           style={{
-            // color: "white", 
             color: "#3f3f3f", // remove this to make it plain white
             textDecoration: "none",
           }}>LinkedIn</a>
