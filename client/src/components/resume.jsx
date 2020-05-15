@@ -3,7 +3,6 @@ import {styles} from "../styles"
 import ResumePDF from "../images/cherg_dev.pdf"
 // import { Document } from "react-pdf/dist/entry.webpack"
 // import { Document } from "react-pdf/dist/entry.parcel"
-import Palolie from "../images/120951738.Palolie.pdf"
 import {Document, Page, pdfjs} from "react-pdf"
 
 
