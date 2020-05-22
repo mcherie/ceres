@@ -39,13 +39,13 @@ export const Footer = () => {
             textDecoration: "none",
           }}>LinkedIn</a>
       </p>
-      &emsp; &emsp;
+      {/* &emsp; &emsp;
         <p
         style={{
           fontSize: "1rem",
           display: "inline-block",
         }}><span style={{color: "darkgrey", }}>Blog</span>
-      </p>
+      </p> */}
     </div>
   )
 }

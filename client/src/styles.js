@@ -100,11 +100,13 @@ const ProjectDiv = {
 
 const FooterDiv = {
   fontFamily: "Gudea",
-  paddingTop: "2rem",
-  paddingBottom: "1.5rem",
+  // paddingTop: "2rem",
+  marginTop: "10vh",
+  // paddingBottom: "1.5rem",
   display: "flex",
   justifyContent: "flex-end",
   paddingRight: "5rem",
+  backgroundColor: "#cee8e3",
 }
 
 export const styles = {
