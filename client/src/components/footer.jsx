@@ -9,28 +9,29 @@ export const Footer = () => {
         style={{
           fontSize: "1rem",
           display: "inline-block",
+          marginRight: "5rem"
         }}><a
           href={ResumePDF} target="_blank" rel="noopener noreferrer" style={{
             color: "#3f3f3f", // remove this to make it plain white 
             textDecoration: "none",
           }}>Resumé</a>
       </p>
-      &emsp; &emsp;
       <p
         style={{
           fontSize: "1rem",
           display: "inline-block",
+          marginRight: "5rem"
         }}><a
           href="http://www.github.com/mcherie" target="_blank" rel="noopener noreferrer" style={{
             color: "#3f3f3f", // remove this to make it plain white 
             textDecoration: "none",
           }}>Github</a>
       </p>
-      &emsp; &emsp;
         <p
         style={{
           fontSize: "1rem",
           display: "inline-block",
+          marginRight: "5rem"
         }}> <a
           href="https://www.linkedin.com/in/cherg/" target="_blank"
           rel="noopener noreferrer"
