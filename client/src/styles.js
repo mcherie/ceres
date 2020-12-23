@@ -6,7 +6,7 @@ const HomeDiv = {
   position: "fixed",
   top: 0,
   zIndex: -1,
-  backgroundColor: "black",
+  // backgroundColor: "black",
 }
 
 const AboutMeTitle = {
@@ -20,16 +20,16 @@ const AboutMeDesc = {
   fontSize: "1.1rem",
   paddingLeft: "40vh",
   paddingRight: "40vh",
-  // color: "#3f3f3f", // remove this to make it plain white
-  color: "white",
+  color: "#3f3f3f", // remove this to make it plain white
+  // color: "white",
 }
 
 const Navbar = {
   // background: "#b7d4d3", // dufault teal?
   // background: "#282c34", // original color
   // backgroundColor: "#dbe9e9", // very very light pastel teal
-  // backgroundColor: "#cee8e3",
-  backgroundColor: "black",
+  backgroundColor: "#cee8e3",
+  // backgroundColor: "black",
   height: "4.5rem",
   position: "fixed",
   top: 0,
@@ -38,24 +38,24 @@ const Navbar = {
   width: "100%",
   paddingTop: "0.7rem",
   textAlign: "left",
-  // borderBottom: "1px solid #e9e9e9",
-  color: "#b7d4d3",
+  borderBottom: "1px solid #e9e9e9",
+  // color: "#b7d4d3",
 }
 
 const NavbarName = {
   fontFamily: "Merienda One",
   fontSize: "3rem",
   marginLeft: "10rem",
-  // color: "#3f3f3f", // remove this to make it plain white
+  color: "#3f3f3f", // remove this to make it plain white
 }
 
 const ContactDiv = {
   paddingBottom: "1rem",
   justifyContent: "flex-start",
   width: "100%",
-  // color: "#3f3f3f", // remove this to make it plain white
+  color: "#3f3f3f", // remove this to make it plain white
   // alignContent: "center",
-  color: "#b7d4d3",
+  // color: "#b7d4d3",
   paddingLeft: "6rem",
 }
 
@@ -64,8 +64,8 @@ const PortfolioDiv = {
   alignContent: "center",
   paddingLeft: "5rem",
   paddingRight: "5rem",
-  // color: "#3f3f3f", // remove this to make it plain white
-  color: "#b7d4d3",
+  color: "#3f3f3f", // remove this to make it plain white
+  // color: "#b7d4d3",
 }
 
 const ResumeDiv = {
