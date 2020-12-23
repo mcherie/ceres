@@ -9,8 +9,8 @@ export const AboutMe = () => {
         flexDirection: "column",
       }}>
       <p style={styles.AboutMeTitle}> Hello, I'm Cher <span>👋</span></p>
-      <p style={styles.AboutMeDesc}> I am a fullstack developer.
-      <br /> I'm always interested in learning new things, and have experience in creating, maintaining, and desigining web and mobile applications.
+      <p style={styles.AboutMeDesc}> I am a fullstack developer who is always interested in learning new things.
+      <br /> I have experience in creating, maintaining, and desigining web and mobile applications.
       </p>
     </div>
   )

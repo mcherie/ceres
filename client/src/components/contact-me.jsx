@@ -89,7 +89,7 @@ export const ContactMe = () => {
             value={name}
             onChange={handleName}
             style={{
-              width: "20rem", 
+              width: "20vw", 
               padding: "0.5rem", 
               borderRadius: "3px", 
               fontSize: "1rem",
@@ -109,7 +109,7 @@ export const ContactMe = () => {
             value={email}
             onChange={handleEmail}
             style={{
-              width: "20rem", 
+              width: "20vw", 
               padding: "0.5rem", 
               borderRadius: "3px",
               fontSize: "1rem",
@@ -133,7 +133,7 @@ export const ContactMe = () => {
               style={{
                 display: "inline-block",
                 verticalAlign: "bottom",
-                width: "20rem",
+                width: "20vw",
                 padding: "0.5rem",
                 borderRadius: "3px",
                 marginTop: "0.2rem",
