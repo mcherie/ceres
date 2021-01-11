@@ -1,6 +1,7 @@
 import React from "react";
 import {Project} from "./project"
 import {styles} from "../styles"
+import PyTictactoe from "../images/pygame-tictactoe.png"
 import Benchmark from "../images/benchmark.png"
 import BridgeBot from "../images/bridgebot.png"
 import NorthOne from "../images/northone.png"
@@ -22,10 +23,17 @@ export const Portfolio = () => {
         fontSize: "2rem"
       }}>previous projects</p>
       <Project
+        title="Tic-tac-toe"
+        img={PyTictactoe}
+        desc="1 and 2-player tic-tac-toe using Pygame"
+        tech="Python・Pygame・AI"
+        link="https://surveys.onrcx.net/react/"
+      />
+      <Project
         title="Survey: Benchmark your Brand"
         img={Benchmark}
         desc="A survey that identifies a brand's CX transformation level."
-        tech="React・Hooks・Material Design・Styled Components・framer motion"
+        tech="React・Hooks・Material Design・Styled Components・Framer Motion"
         link="https://surveys.onrcx.net/react/"
       />
       <Project
