@@ -1,6 +1,7 @@
 import React from "react";
 import {Project} from "./project"
 import {styles} from "../styles"
+import Benchmark from "../images/benchmark.png"
 import BridgeBot from "../images/bridgebot.png"
 import NorthOne from "../images/northone.png"
 import Wingit from "../images/wingit.png"
@@ -20,6 +21,13 @@ export const Portfolio = () => {
         fontFamily: "Merienda", 
         fontSize: "2rem"
       }}>previous projects</p>
+      <Project
+        title="Survey: Benchmark your Brand"
+        img={Benchmark}
+        desc="A survey that identifies a brand's CX transformation level."
+        tech="React・Hooks・Material Design・Styled Components・framer motion"
+        link="https://surveys.onrcx.net/react/"
+      />
       <Project
         title="BridgeBot"
         img={BridgeBot}
