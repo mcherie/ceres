@@ -27,7 +27,7 @@ export const Portfolio = () => {
         img={PyTictactoe}
         desc="1 and 2-player tic-tac-toe using Pygame"
         tech="Python・Pygame・AI"
-        link="https://surveys.onrcx.net/react/"
+        link="https://github.com/mcherie/TicTacToePygame"
       />
       <Project
         title="Survey: Benchmark your Brand"
