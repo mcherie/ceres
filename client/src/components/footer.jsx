@@ -1,6 +1,6 @@
 import React from "react"
 import { styles } from "../styles"
-import ResumePDF from "../images/cher_res.pdf"
+import ResumePDF from "../images/cherGRes.pdf"
 
 export const Footer = () => {
   return (
