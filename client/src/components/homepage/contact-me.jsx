@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import {styles} from "../styles"
+import {styles} from "../../styles"
 import axios from "axios"
 
 export const ContactMe = () => {

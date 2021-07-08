@@ -1,41 +1,15 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
-
-import { Home } from "./components/home"
-import {AboutMe} from './components/about-me';
-import { Portfolio } from "./components/portfolio"
-import { Navbar } from "./components/navbar"
-import {ContactMe} from './components/contact-me';
-import { Resume } from "./components/resume"
-import { Footer } from "./components/footer"
-
+import {BrowserRouter as Router, Route} from'react-router-dom';
+import { SaveTheDate } from './components/save-the-date';
+import { Homepage } from './components/homepage/homepage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        <Navbar />
-      </header>
-      <Home />
-      <AboutMe />
-      <Portfolio />
-        {/* <Resume /> */}
-      <ContactMe />
-      <Footer />
-    </div>
+    <Router>
+      <Route exact path='/' component={Homepage} />
+      <Route path="/save-the-date" component={SaveTheDate}/>
+    </Router>
   );
 }
 

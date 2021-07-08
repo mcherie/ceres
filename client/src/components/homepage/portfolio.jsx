@@ -1,15 +1,15 @@
 import React from "react";
 import {Project} from "./project"
-import {styles} from "../styles"
-import PyTictactoe from "../images/pygame-tictactoe.png"
-import Benchmark from "../images/benchmark.png"
-import BridgeBot from "../images/bridgebot.png"
-import NorthOne from "../images/northone.png"
-import Wingit from "../images/wingit.png"
-import ChattyApp from "../images/chatty-app.png"
-import Tweeter from "../images/tweeter.png"
-import TinyURL from "../images/tiny-url.png"
-import Github from "../images/github-search.png"
+import {styles} from "../../styles"
+import PyTictactoe from "../../images/pygame-tictactoe.png"
+import Benchmark from "../../images/benchmark.png"
+import BridgeBot from "../../images/bridgebot.png"
+import NorthOne from "../../images/northone.png"
+import Wingit from "../../images/wingit.png"
+import ChattyApp from "../../images/chatty-app.png"
+import Tweeter from "../../images/tweeter.png"
+import TinyURL from "../../images/tiny-url.png"
+import Github from "../../images/github-search.png"
 
 export const Portfolio = () => {
   return (

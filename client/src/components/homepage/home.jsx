@@ -1,6 +1,6 @@
 import React from "react"
 import Particles from "react-particles-js"
-import {styles} from "../styles"
+import {styles} from "../../styles"
 
 
 export const Home = () => {

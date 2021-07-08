@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react"
-import {styles} from "../styles"
-import ResumePDF from "../images/cherg_dev.pdf"
+import {styles} from "../../styles"
+import ResumePDF from "../../images/cherg_dev.pdf"
 // import { Document } from "react-pdf/dist/entry.webpack"
 // import { Document } from "react-pdf/dist/entry.parcel"
 import {Document, Page, pdfjs} from "react-pdf"
